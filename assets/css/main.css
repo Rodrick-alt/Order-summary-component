@@ -61,7 +61,7 @@ body {
   color:black;
   font-family: 'Red Hat Display', sans-serif;
   font-size: .9rem;
-  background: url("./images/pattern-background-desktop.svg");
+  background: url("images/pattern-background-desktop.svg");
   background-color: hsl(225, 100%, 94%); /*pale blue*/
   background-position: top;
   background-size: auto;
@@ -187,7 +187,7 @@ border-top-right-radius: 15px;
 
 @media only screen and (max-width: 768px){
   body{
-    background: url("/images/pattern-background-mobile.svg");
+    background: url("images/pattern-background-mobile.svg");
     background-color: hsl(225, 100%, 94%); /*pale blue*/
     background-position: top;
     background-size: contain;
