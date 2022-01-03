@@ -61,7 +61,7 @@ body {
   color:black;
   font-family: 'Red Hat Display', sans-serif;
   font-size: .9rem;
-  background: url("/images/pattern-background-desktop.svg");
+  background: url("../images/pattern-background-desktop.svg");
   background-color: hsl(225, 100%, 94%); /*pale blue*/
   background-position: top;
   background-size: auto;
