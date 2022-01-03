@@ -197,6 +197,36 @@ border-top-right-radius: 15px;
 @media only screen and (min-width: 1024px){
   .hero-text__p, .plan__p {font-size: .9rem;}
 }
+
+/* Ipad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .container{
+  max-width: 100% !important;
+  }
+  .hero-text__p, .plan__p {font-size: 1.1em;}
+}
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+  .container{
+    max-width: 100% !important;
+    }
+    .hero-text__p, .plan__p {font-size: 1.1em;}
+}
+
+/* Ipad Pro */
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+  .container{
+  max-width: 100% !important;
+  }
+  .hero-text__p, .plan__p {font-size: 1.1em;}
+
+}
+@media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
+  .container{
+    max-width: 100% !important;
+    }
+    .hero-text__p, .plan__p {font-size: 1.1em;}
+}
+
 /* No hover effects on touch */
 @media (hover: hover) and (pointer: fine){
   .plan__btn:hover{
