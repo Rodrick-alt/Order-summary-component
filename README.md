@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](images\Screenshot-Muisc-Shop.png)
+![Screenshot](https://github.com/Rodrick-alt/Order-summary-component/blob/master/images/Screenshot-Muisc-Shop.png)
 
 
 ### Links
