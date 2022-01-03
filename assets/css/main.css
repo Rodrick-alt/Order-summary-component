@@ -204,13 +204,24 @@ border-top-right-radius: 15px;
   max-width: 100% !important;
   }
   .hero-text__p, .plan__p {font-size: 1.1em;}
+  .plan__btn, .payment__btn{font-size: 1rem;}
 }
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
   .container{
     max-width: 100% !important;
     }
     .hero-text__p, .plan__p {font-size: 1.1em;}
+    .plan__btn, .payment__btn{font-size: 1rem;}
 }
+/* special */
+@media all and (device-width: 1024px) and (device-height: 320px) and (orientation:landscape) {
+  .container{
+    max-width: 100% !important;
+    }
+    .hero-text__p, .plan__p {font-size: 1.1em;}
+    .plan__btn, .payment__btn{font-size: 1rem;}
+}
+
 
 /* Ipad Pro */
 @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
@@ -218,6 +229,7 @@ border-top-right-radius: 15px;
   max-width: 100% !important;
   }
   .hero-text__p, .plan__p {font-size: 1.1em;}
+  .plan__btn, .payment__btn{font-size: 1rem;}
 
 }
 @media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
@@ -225,6 +237,7 @@ border-top-right-radius: 15px;
     max-width: 100% !important;
     }
     .hero-text__p, .plan__p {font-size: 1.1em;}
+    .plan__btn, .payment__btn{font-size: 1rem;}
 }
 
 /* No hover effects on touch */
