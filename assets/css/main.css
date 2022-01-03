@@ -60,6 +60,7 @@ table {
 body {
   color:black;
   font-family: 'Red Hat Display', sans-serif;
+  font-size: .9rem;
   background: url("/images/pattern-background-desktop.svg");
   background-color: hsl(225, 100%, 94%); /*pale blue*/
   background-position: top;
@@ -80,9 +81,9 @@ body {
   flex-flow: column wrap;
   justify-content: space-between;
   align-items: center;
-  min-width: 270px !important;
-  width: fit-content !important;
-  max-width: 25% !important;
+  min-width: 270px;
+  width: fit-content;
+  max-width: 40%;
   height: auto;
   border-radius: 15px;
   background-color: ghostwhite;
@@ -107,7 +108,6 @@ border-top-right-radius: 15px;
   color:hsl(223, 47%, 23%); /*dark blue*/
 }
 .hero-text__p{
-  font-size: .7rem;
   font-weight: 200;
   line-height: 25px;
   color:hsl(224, 23%, 55%); /*Desaturated blue*/
@@ -134,8 +134,8 @@ border-top-right-radius: 15px;
   align-items: center;
 }
 .plan__p{
-  font-size: .7rem;
   line-height: 25px;
+  font-size: .8rem;
   font-weight: bold;
   color:hsl(223, 47%, 23%); /*darl blue*/
 }
@@ -185,7 +185,7 @@ border-top-right-radius: 15px;
   box-shadow: none;
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 768px){
   body{
     background: url("/images/pattern-background-mobile.svg");
     background-color: hsl(225, 100%, 94%); /*pale blue*/
@@ -194,50 +194,45 @@ border-top-right-radius: 15px;
     background-repeat: no-repeat;
   } 
 }
-@media only screen and (min-width: 1024px){
-  .hero-text__p, .plan__p {font-size: .9rem;}
-}
+
 
 /* Ipad */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-  .container{
-  max-width: 100% !important;
-  }
   .hero-text__p, .plan__p {font-size: 1.1em;}
   .plan__btn, .payment__btn{font-size: 1rem;}
+
+  body{
+    background-position: top;
+    background-size: 125vh;
+  } 
 }
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
-  .container{
-    max-width: 100% !important;
-    }
     .hero-text__p, .plan__p {font-size: 1.1em;}
     .plan__btn, .payment__btn{font-size: 1rem;}
-}
-/* special */
-@media all and (device-width: 1024px) and (device-height: 320px) and (orientation:landscape) {
-  .container{
-    max-width: 100% !important;
+    body{
+      background-position: top;
+      background-size: auto;
     }
-    .hero-text__p, .plan__p {font-size: 1.1em;}
-    .plan__btn, .payment__btn{font-size: 1rem;}
 }
 
 
 /* Ipad Pro */
 @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
-  .container{
-  max-width: 100% !important;
-  }
   .hero-text__p, .plan__p {font-size: 1.1em;}
   .plan__btn, .payment__btn{font-size: 1rem;}
+  body{
+    background-position: top;
+    background-size: 200vh;
+  }
 
 }
 @media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
-  .container{
-    max-width: 100% !important;
-    }
     .hero-text__p, .plan__p {font-size: 1.1em;}
     .plan__btn, .payment__btn{font-size: 1rem;}
+    body{
+      background-position: top;
+      background-size: auto;
+    }
 }
 
 /* No hover effects on touch */
