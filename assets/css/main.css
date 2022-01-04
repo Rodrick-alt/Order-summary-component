@@ -61,7 +61,7 @@ body {
   color:black;
   font-family: 'Red Hat Display', sans-serif;
   font-size: .9rem;
-  background: url("/images/pattern-background-desktop.svg");
+  background: url('/images/pattern-background-desktop.svg');
   background-color: hsl(225, 100%, 94%); /*pale blue*/
   background-position: top;
   background-size: auto;
@@ -198,17 +198,17 @@ border-top-right-radius: 15px;
 
 /* Ipad */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-  .hero-text__p, .plan__p {font-size: 1.1em;}
-  .plan__btn, .payment__btn{font-size: 1rem;}
-
+  .hero-text__p {font-size: 1.1em;}
+  .container{
+    max-width: 60%;
+  }
   body{
     background-position: top;
     background-size: 125vh;
   } 
 }
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
-    .hero-text__p, .plan__p {font-size: 1.1em;}
-    .plan__btn, .payment__btn{font-size: 1rem;}
+    .hero-text__p {font-size: 1.1em;}
     body{
       background-position: top;
       background-size: auto;
@@ -218,8 +218,10 @@ border-top-right-radius: 15px;
 
 /* Ipad Pro */
 @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
-  .hero-text__p, .plan__p {font-size: 1.1em;}
-  .plan__btn, .payment__btn{font-size: 1rem;}
+  .hero-text__p {font-size: 1.1em;}
+  .container{
+    max-width: 100%;
+  }
   body{
     background-position: top;
     background-size: 200vh;
@@ -227,8 +229,7 @@ border-top-right-radius: 15px;
 
 }
 @media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
-    .hero-text__p, .plan__p {font-size: 1.1em;}
-    .plan__btn, .payment__btn{font-size: 1rem;}
+    .hero-text__p {font-size: 1.1em;}
     body{
       background-position: top;
       background-size: auto;
