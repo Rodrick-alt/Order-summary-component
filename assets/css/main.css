@@ -58,6 +58,11 @@ table {
 }
 */
 body {
+  /* onload anim */
+  opacity: 0;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s;
+
   color:black;
   font-family: 'Red Hat Display', sans-serif;
   font-size: .9rem;
@@ -82,8 +87,8 @@ body {
   justify-content: space-between;
   align-items: center;
   min-width: 270px;
-  width: fit-content;
-  max-width: 40%;
+  width: fit-content !important;
+  max-width: 30%;
   height: auto;
   border-radius: 15px;
   background-color: ghostwhite;
@@ -186,6 +191,8 @@ border-top-right-radius: 15px;
 }
 
 @media only screen and (max-width: 768px){
+  .hero-text__p{font-size: .8rem;}
+  .plan__p, .plan__btn, .payment__btn{font-size: .8rem;}
   body{
     background: url("/images/pattern-background-mobile.svg");
     background-color: hsl(225, 100%, 94%); /*pale blue*/
@@ -195,12 +202,12 @@ border-top-right-radius: 15px;
   } 
 }
 
-
 /* Ipad */
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-  .hero-text__p {font-size: 1.1em;}
+  .hero-text__p{font-size: 1rem;}
+  .plan__p, .plan__btn, .payment__btn{font-size: 1rem;}
   .container{
-    max-width: 60%;
+    max-width: 50%;
   }
   body{
     background-position: top;
@@ -208,7 +215,8 @@ border-top-right-radius: 15px;
   } 
 }
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
-    .hero-text__p {font-size: 1.1em;}
+  .hero-text__p{font-size: 1rem;}
+  .plan__p, .plan__btn, .payment__btn{font-size: 1rem;}
     body{
       background-position: top;
       background-size: auto;
@@ -218,9 +226,10 @@ border-top-right-radius: 15px;
 
 /* Ipad Pro */
 @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
-  .hero-text__p {font-size: 1.1em;}
+  .hero-text__p{font-size: 1rem;}
+  .plan__p, .plan__btn, .payment__btn{font-size: 1rem;}
   .container{
-    max-width: 100%;
+    max-width: 50%;
   }
   body{
     background-position: top;
@@ -229,7 +238,8 @@ border-top-right-radius: 15px;
 
 }
 @media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
-    .hero-text__p {font-size: 1.1em;}
+  .hero-text__p{font-size: 1rem;}
+  .plan__p, .plan__btn, .payment__btn{font-size: 1rem;}
     body{
       background-position: top;
       background-size: auto;
