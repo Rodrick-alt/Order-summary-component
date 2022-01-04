@@ -194,7 +194,7 @@ border-top-right-radius: 15px;
   .hero-text__p{font-size: .8rem;}
   .plan__p, .plan__btn, .payment__btn{font-size: .8rem;}
   body{
-    background: url("/images/pattern-background-mobile.svg");
+    background: url("../../images/pattern-background-mobile.svg");
     background-color: hsl(225, 100%, 94%); /*pale blue*/
     background-position: top;
     background-size: contain;
