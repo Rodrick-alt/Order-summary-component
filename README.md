@@ -2,20 +2,6 @@
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-
-## Overview
-
 ### The challenge
 
 Your challenge is to build out this order summary card component and get it looking as close to the design as possible.
@@ -28,14 +14,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://github.com/Rodrick-alt/Order-summary-component/blob/master/images/Screenshot-Muisc-Shop.png)
-
-
-### Links
-
-- Live Site URL: [Order Summary Component](https://rodrick-alt.github.io/Order-summary-component/)
-
-## My process
+![Screenshot](./images/Screenshot-Muisc-Shop.png)
 
 ### Built with
 
@@ -44,9 +23,7 @@ Users should be able to:
 - Flexbox
 
 ### What I learned
-
-Overall this was a cool simple project. Its simplicity meant I didn't
-need to use any special tools like React or Sass. HTML & CSS were sufficient. A major concept I learned while building this was how to handle hover effects on touch devices. It wasn't something I had thought about before & finding out how to handle it was surprisingly fun.
+A major concept I learned while building this was how to handle hover effects on touch devices. It wasn't something I had thought about before & finding out how to handle it was surprisingly fun.
 
 ```css
 @media (hover: hover) and (pointer: fine){
@@ -74,6 +51,4 @@ need to use any special tools like React or Sass. HTML & CSS were sufficient. A 
 - [hover on touchscreens](https://medium.com/@mezoistvan/finally-a-css-only-solution-to-hover-on-touchscreens-c498af39c31c) - This is an amazing article which helped me understand how to handle :hover on touchscreens. I'd recommend it to anyone still learning this concept.
 
 ## Author
-
-- Github - [Rodrick](https://github.com/Rodrick-alt)
 - Frontend Mentor - [Rodrick](https://www.frontendmentor.io/profile/Rodrick-alt)
