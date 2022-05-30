@@ -49,6 +49,3 @@ A major concept I learned while building this was how to handle hover effects on
 
 - [FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me with correctly implementing Flexbox. I really like its simple explainations accompanied by great visual examples.
 - [hover on touchscreens](https://medium.com/@mezoistvan/finally-a-css-only-solution-to-hover-on-touchscreens-c498af39c31c) - This is an amazing article which helped me understand how to handle :hover on touchscreens. I'd recommend it to anyone still learning this concept.
-
-## Author
-- Frontend Mentor - [Rodrick](https://www.frontendmentor.io/profile/Rodrick-alt)
